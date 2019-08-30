@@ -37577,8 +37577,8 @@
 	}
 	
 	var INITIAL_STATE = {
-	  filename: '',
-	  originalSource: _isOnline2.default ? _testData2.default : null,
+	  filename: 'testData.json',
+	  originalSource: _isOnline2.default ? null : null,
 	  examples: _isOnline2.default ? _testData2.default.rasa_nlu_data.common_examples.map(function (e) {
 	    return createExample(e);
 	  }) : null,
