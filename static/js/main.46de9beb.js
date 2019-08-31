@@ -37437,7 +37437,7 @@
 	              return openAddModal();
 	            }
 	          },
-	          'Add new example'
+	          'Add Training Set'
 	        ),
 	        fileButtons,
 	        _react2.default.createElement(_ClearButton2.default, { style: styles.button })
@@ -37577,7 +37577,7 @@
 	}
 	
 	var INITIAL_STATE = {
-	  filename: 'testData.json',
+	  filename: '',
 	  originalSource: _isOnline2.default ? _testData2.default : null,
 	  examples: _isOnline2.default ? _testData2.default.rasa_nlu_data.common_examples.map(function (e) {
 	    return createExample(e);
@@ -39745,7 +39745,7 @@
 	
 	
 	// module
-	exports.push([module.id, "body {\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n}\n\n#root {\n  height: 100%\n}\n\n/*Button*/\n.ant-btn{\n  font-size: 13px;\n  line-height: 13px;\n}\n\n.ant-btn:hover{\n  background: #51DBF8;\n  color: #fff;\n  border: 1px solid #51DBF8;\n}\n\n.ant-btn-primary:hover{\n  background: #9469F0;\n  color: #fff;\n  border: 1px solid #9469F0;\n}\n\n/*Expand button*/\n.ant-table-row-expand-icon {\n    width: 20px;\n    height: 20px;\n    background: #fff;\n    font-size: 14px;\n    line-height: 18px;\n}\n\n.ant-table-row-expand-icon:hover {\n    background: #51DBF8;\n    border: 1px solid #51DBF8;\n    color: #fff;\n}\n\n/*Table head*/\n.ant-table-thead>tr>th {\n    font-size: 14px;\n    background: #2F3057;\n    color: #fff;\n}\n\n.ant-table-thead>tr>th.ant-table-column-sort {\n    background: #404280;\n    opacity: 1;\n}\n\n.ant-table-thead>tr>th>i[class^=\"anticon-\"]{\n  color: #fff;\n}\n\n/*Table sort icons*/\n.ant-table-column-sorter .anticon-caret-down, .ant-table-column-sorter .anticon-caret-up {\n    color: #fff;\n}\n\n.ant-table-thead>tr>th .anticon-filter {\n    color: #fff;\n}\n\n.ant-table-thead>tr>th .anticon-filter:hover {\n    color: #00C4ED;\n}\n\n.ant-table-thead>tr>th .anticon-caret-down:hover {\n    color: #00C4ED;\n}\n\n.ant-table-column-sorter-down:hover .anticon, .ant-table-column-sorter-up:hover .anticon {\n    color: #00C4ED;\n}\n\n.ant-table-thead > tr > th .ant-table-filter-selected.anticon-filter {\n    color: #00C4ED;\n}\n\n/*Modal*/\n.ant-modal-header {\n    background: #2F3057;\n    color: #fff;\n}\n\n/* Modal */\n.ant-modal-close {\n    color: #fff;\n}\n\n.ant-modal-close:focus, .ant-modal-close:hover {\n    opacity:0.8;\n    color: #fff;\n    text-decoration: none;\n}\n\n.anticon-delete:hover{\n  color:#00C4ED;\n}\n\n/* Fixed header */\n.example-table .ant-table-title {\n  padding: 0px;\n}\n", ""]);
+	exports.push([module.id, "body {\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n}\n\n#root {\n  height: 100%\n}\n\n/*Button*/\n.ant-btn{\n  font-size: 13px;\n  line-height: 13px;\n}\n\n.ant-btn:hover{\n  background: #51DBF8;\n  color: #fff;\n  border: 1px solid #51DBF8;\n}\n\n.ant-btn-primary:hover{\n  background: #9469F0;\n  color: #fff;\n  border: 1px solid #9469F0;\n}\n\n/*Expand button*/\n.ant-table-row-expand-icon {\n    width: 20px;\n    height: 20px;\n    background: #fff;\n    font-size: 14px;\n    line-height: 18px;\n}\n\n.ant-table-row-expand-icon:hover {\n    background: #51DBF8;\n    border: 1px solid #51DBF8;\n    color: #fff;\n}\n\n/*Table head*/\n.ant-table-thead>tr>th {\n    font-size: 14px;\n    background: #4b2e61;\n    color: #fff;\n}\n\n.ant-table-thead>tr>th.ant-table-column-sort {\n    background: #404280;\n    opacity: 1;\n}\n\n.ant-table-thead>tr>th>i[class^=\"anticon-\"]{\n  color: #fff;\n}\n\n/*Table sort icons*/\n.ant-table-column-sorter .anticon-caret-down, .ant-table-column-sorter .anticon-caret-up {\n    color: #fff;\n}\n\n.ant-table-thead>tr>th .anticon-filter {\n    color: #fff;\n}\n\n.ant-table-thead>tr>th .anticon-filter:hover {\n    color: #00C4ED;\n}\n\n.ant-table-thead>tr>th .anticon-caret-down:hover {\n    color: #00C4ED;\n}\n\n.ant-table-column-sorter-down:hover .anticon, .ant-table-column-sorter-up:hover .anticon {\n    color: #00C4ED;\n}\n\n.ant-table-thead > tr > th .ant-table-filter-selected.anticon-filter {\n    color: #00C4ED;\n}\n\n/*Modal*/\n.ant-modal-header {\n    background: #4b2e61;\n    color: #fff;\n}\n\n/* Modal */\n.ant-modal-close {\n    color: #fff;\n}\n\n.ant-modal-close:focus, .ant-modal-close:hover {\n    opacity:0.8;\n    color: #fff;\n    text-decoration: none;\n}\n\n.anticon-delete:hover{\n  color:#00C4ED;\n}\n\n/* Fixed header */\n.example-table .ant-table-title {\n  padding: 0px;\n}\n", ""]);
 	
 	// exports
 
